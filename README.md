@@ -50,3 +50,14 @@ To run this application locally, you will need:
 1. Clone the repository:
    ```bash
    git clone [https://github.com/iAxstral/StudentVault-DVA.git](https://github.com/iAxstral/StudentVault-DVA.git)
+2. Navigate into the project directory:
+   ```bash
+   cd StudentVault-DVA
+3. Switch to the vulnerable branch to see the exploitable code:
+   ```bash
+   git switch VulnerableVersion
+4. Run the application:
+   ```bash
+   mvn spring-boot:run
+5. Open your browser and navigate to [http://localhost:8080](http://localhost:8080)
+
